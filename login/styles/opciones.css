@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url(img/secta.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .wrapper{
+        width: 80%;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, .2);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px rgba(0,0,0, .2);
+        color:white;
+        border-radius: 10px;
+        padding: 30px 40px;
+        text-align: center;
+    }
+    .wrapper h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    .botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+    }
+    button {
+      display: inline-block;
+      background: transparent;
+      backdrop-filter: blur(20px);
+      color: rgb(255, 255, 255);
+      border: none;
+      padding: 10px 20px;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow:
+      0 0 5px #f83e05,
+      0 0 5px #f83e05, 
+      0 0 5px #f83e05, 
+      0 0 10px rgb(252, 20, 20), 
+      0 0 10px rgb(252, 18, 18), 
+      inset 0 0 10px rgba(255,255,255,0.3); 
+      font-family: "Cars", "sans-serif";
+      -webkit-text-stroke: 1px rgb(0, 0, 0);
+    }
+    button a{
+        text-decoration: none;
+        color: white;
+    }
+    button {
+        transition: transform 0.3s ease;
+      }
+      
+      button:hover {
+        transform: scale(1.2);
+      }
